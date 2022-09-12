@@ -1,0 +1,22 @@
+nav {
+  background-color: $primary-color;
+  padding: 10px;
+  position:relative;
+  text-align: center;
+  overflow: hidden;
+  
+}
+
+.nav-ul {
+
+  a {
+    text-decoration: none;
+    color: $secondary-color;
+  }
+
+  li {
+    display: inline-block;
+    margin-right: 5%;
+  }
+}
+
