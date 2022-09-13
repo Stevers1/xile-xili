@@ -4,11 +4,12 @@ nav {
   position:relative;
   text-align: center;
   overflow: hidden;
-  
+
 }
 
 .nav-ul {
-
+  display: flex;
+  justify-content: space-around;
   a {
     text-decoration: none;
     color: $secondary-color;
@@ -16,7 +17,6 @@ nav {
 
   li {
     display: inline-block;
-    margin-right: 5%;
   }
 }
 
